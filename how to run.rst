@@ -18,7 +18,7 @@ With Clone Github
 
 .. code-block:: bash
 
-  git clone --branch git@github.com:Aflahurif/calssification-breast-cancer.git
+  git clone --single-branch git@github.com:Aflahurif/calssification-breast-cancer.git
  
 - open the folder with name classification-breast-cancer
  
