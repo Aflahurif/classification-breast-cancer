@@ -41,6 +41,7 @@ Dependencies
 install package with pip
 
 - open terminal
+- install with this command
 .. code-block:: bash
 
   pip install -r "requirements.txt"
