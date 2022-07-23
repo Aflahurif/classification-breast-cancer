@@ -1,0 +1,6 @@
+tk
+pillow
+opencv-python
+pandas
+scikit-image
+scikit-learn
