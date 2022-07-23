@@ -41,6 +41,7 @@ Dependencies
 install package with pip
 
 - open terminal
+- install with this command
 .. code-block:: bash
 
   pip install -r "requirements.txt"
@@ -52,9 +53,9 @@ Run the apps
 
 .. code-block:: bash
 
-  python .\dependecies.py
+  python .\apps.py
   
  
 # direct apps
  
-  double click file "dependecies.py"
+  double click file "apps.py"
