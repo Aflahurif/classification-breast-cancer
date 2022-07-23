@@ -53,9 +53,9 @@ Run the apps
 
 .. code-block:: bash
 
-  python .\dependecies.py
+  python .\apps.py
   
  
 # direct apps
  
-  double click file "dependecies.py"
+  double click file "apps.py"

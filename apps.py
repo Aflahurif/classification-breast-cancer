@@ -99,7 +99,7 @@ def submit_accu():
         result, img_confus, score = fungsi.get_accuraacy(data)
         for kunci in data.keys():
             for val,rslt in zip(data[kunci],result):
-                tree.insert('', tk.END, values=[val,kunci,rslt])
+                tree.insert('', tk.END, values=[val.split('/')[-1],kunci,rslt])
         confus = ImageTk.PhotoImage(Image.open(str(img_confus)).resize((320,240)))
         panel_confus.configure(image=confus)
         panel_confus.image = confus
